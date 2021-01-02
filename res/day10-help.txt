@@ -1,0 +1,26 @@
+This is a help file to help understand Part 2 of Day10.
+For given example on advent of code. The assumptions comes the solutions is: n ^ redundant numbers in array
+But there are cases like:
+
+1,2,3,4,5
+What is the total number of distinct ways you can arrange the adapters to connect the charging outlet to your device?
+Here: if we follow above logic, we get 2^4 , as for of the digits can be removed, and each removal doubles number of permutations.
+Answer = 16, but let's break it down.
+
+1,2,3,4,5
+1,2,4,5
+1,2,3,5
+1,3,4,5
+1,3,5
+1,4,5
+1,2,5
+
+2,3,4,5
+2,3,5
+2,4,5
+2,5
+
+3,4,5
+3,5
+
+Result = 13

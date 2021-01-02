@@ -31,5 +31,6 @@ public class Day10 {
         System.out.println(diff1 * (diff3 + 1));
 
         //Part 2
+        //To be done later as problem is more complex
     }
 }
